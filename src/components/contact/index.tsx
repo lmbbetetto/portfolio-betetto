@@ -1,7 +1,7 @@
 import './contact.css'
-import {MdOutlineEmail} from 'react-icons/md'
-import {BsWhatsapp} from 'react-icons/bs'
-import {FiInstagram} from 'react-icons/fi'
+import { MdOutlineEmail } from 'react-icons/md'
+import { BsWhatsapp } from 'react-icons/bs'
+import { FiInstagram } from 'react-icons/fi'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
@@ -10,15 +10,15 @@ type ContactType = {
 }
 
 
-function Contact({onSubmitContact}: ContactType) {
-  const form = useRef();
+function Contact({ onSubmitContact }: ContactType) {
+  const form = useRef<any>();
 
   //Alterar Any
   const sendEmail = (e: any) => {
     e.preventDefault();
 
     //Tipar form.current
-  {/*emailjs.sendForm('service_98n5t52', 'template_10jwbbz', form.current, 'EHQntXXmTW_cNvFQC') */}
+    emailjs.sendForm('service_98n5t52', 'template_10jwbbz', form.current, 'EHQntXXmTW_cNvFQC')
 
     e.target.reset()
   };
@@ -30,21 +30,21 @@ function Contact({onSubmitContact}: ContactType) {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
+            <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>lmbbetetto@gmail.com</h5>
             <a href="mailto:lmbbetetto@gmail.com" target='_blank'>Envie uma mensagem</a>
           </article>
 
           <article className="contact__option">
-            <FiInstagram className='contact__option-icon'/>
+            <FiInstagram className='contact__option-icon' />
             <h4>Instagram</h4>
             <h5>_leomanoel</h5>
             <a href="https://www.instagram.com/_leomanoel/?hl=en" target='_blank'>Envie uma mensagem</a>
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
+            <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>+55 18 99656-3354</h5>
             <a href="https://api.whatsapp.com/send?phone=+5518996563354" target='_blank'>Send a message</a>
