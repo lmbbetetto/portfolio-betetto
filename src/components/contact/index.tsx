@@ -47,7 +47,7 @@ function Contact({ onSubmitContact }: ContactType) {
             <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>+55 18 99656-3354</h5>
-            <a href="https://api.whatsapp.com/send?phone=+5518996563354" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+5518996563354" target='_blank'>Envie uma mensagem</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
