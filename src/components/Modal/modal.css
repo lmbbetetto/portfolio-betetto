@@ -1,3 +1,33 @@
+.container-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay {
+    border: 2px;
+    border-color: var(--color-bg);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .modal-content {
-    background-color: black;
+    text-align: center;
+    width: 30%;
+    max-width: 500px;
+    background-color: var(--color-primary-variant);
+    padding: 10px;
+    border-radius: 2rem;
+    color: var(--color-white);
+}
+
+.btn-modal {
+    margin-top: 1rem;
 }

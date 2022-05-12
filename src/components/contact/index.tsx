@@ -55,10 +55,8 @@ function Contact({onSubmitContact}: ContactType) {
           <input type="text" name='name' placeholder='Nome completo' required />
           <input type="email" name="email" placeholder='Email' required />
           <textarea name="message" rows={7} placeholder='Mensagem' required></textarea>
-          {/* <button type='submit' onClick={onSubmitContact} className='btn btn-primary'>Enviar</button> */}
+          <button type='submit' onClick={onSubmitContact} className='btn btn-primary'>Enviar</button>
         </form>
-
-        <button type='button' onClick={onSubmitContact} className='btn'>Teste</button>
       </div>
     </section>
   )
