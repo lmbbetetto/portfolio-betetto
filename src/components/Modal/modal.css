@@ -12,6 +12,7 @@
     bottom: 0;
     right: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 
     display: flex;
     align-items: center;
@@ -19,10 +20,12 @@
 }
 
 .modal-content {
+    border: 2px;
     text-align: center;
     width: 30%;
     max-width: 500px;
-    background-color: var(--color-primary-variant);
+    background-color: var(--color-bg-variant);
+    border-color: var(--color-primary-variant);
     padding: 10px;
     border-radius: 2rem;
     color: var(--color-white);
@@ -30,4 +33,20 @@
 
 .btn-modal {
     margin-top: 1rem;
+}
+
+/* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
+
+@MEDIA screen and (max-width: 1024px) {
+    .modal-content {
+        width: 30rem;
+    }
+}
+
+/* =========== MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@MEDIA screen and (max-width: 600px) {
+    .modal-content {
+        width: 20rem;
+    }
 }
