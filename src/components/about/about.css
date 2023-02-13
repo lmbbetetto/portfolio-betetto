@@ -70,6 +70,11 @@
     color: var(--color-light);
 }
 
+.container_btn {
+    display: flex;
+    gap: 1rem;
+}
+
 /* =========== MEDIA QUERIES (MEDIUM DEVICES) =========== */
 
 @MEDIA screen and (max-width: 1024px) {
@@ -107,5 +112,10 @@
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+
+    .container_btn {
+        align-items: center;
+        flex-direction: column;
     }
 }
