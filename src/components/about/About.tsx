@@ -1,5 +1,5 @@
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -23,7 +23,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experiência</h5>
-              <small>Freelance</small>
+              <small>Júnior</small>
             </article>
 
             <article className='about__card'>
@@ -34,8 +34,13 @@ const About = () => {
           </div>
 
           <p>
-            Me chamo Leonardo Manoel, moro no interior de São Paulo, estudando o 2º ano de Analise e desenvolvimento de sistemas,
-            focando na área front-end, voltado em ReactJS, procurando criar soluções em sites e sistemas web.
+            Bem-vindo ao meu portfólio pessoal! Eu sou um desenvolvedor front-end apaixonado por HTML, CSS, JavaScript e React, e tenho experiência em projetos pessoais e freelancers.
+
+            No meu portfólio, você encontrará alguns dos projetos mais interessantes em que trabalhei, incluindo sites, aplicações web e experiências interativas. Eu trabalho com HTML e CSS para criar layouts elegantes e acessíveis, e utilizo JavaScript para dar vida às minhas páginas web com interações dinâmicas e funcionalidades avançadas.
+
+            Um dos meus pontos fortes é a minha habilidade em React. Eu tenho experiência na criação de componentes reutilizáveis, utilização de bibliotecas populares como Redux e Material UI, e construção de aplicações complexas de uma página.
+
+            Em resumo, meu portfólio pessoal demonstra minha capacidade de desenvolver sites modernos e funcionais utilizando as tecnologias mais recentes. Se você está procurando um desenvolvedor front-end que possa entregar resultados excepcionais, eu estou aqui para ajudar. Obrigado pela visita!
           </p>
 
           <div className='container_btn'>
