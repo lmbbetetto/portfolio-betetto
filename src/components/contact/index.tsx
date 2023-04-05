@@ -49,27 +49,6 @@ function Contact({ onSubmitContact }: ContactType) {
             <h5>+55 18 99656-3354</h5>
             <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
           </article>
-
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>WhatsApp</h4>
-            <h5>+55 18 99656-3354</h5>
-            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
-          </article>
-
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>WhatsApp</h4>
-            <h5>+55 18 99656-3354</h5>
-            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
-          </article>
-
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon' />
-            <h4>WhatsApp</h4>
-            <h5>+55 18 99656-3354</h5>
-            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
-          </article>
         </div>
 
 
