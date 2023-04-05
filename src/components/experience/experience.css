@@ -1,4 +1,5 @@
 .experience__container {
+    max-width: 48%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -33,6 +34,7 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    /* margin: 0 auto; */
 }
 
 .experience__details-icon {

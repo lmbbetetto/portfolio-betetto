@@ -49,14 +49,36 @@ function Contact({ onSubmitContact }: ContactType) {
             <h5>+55 18 99656-3354</h5>
             <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
           </article>
+
+          <article className="contact__option">
+            <BsWhatsapp className='contact__option-icon' />
+            <h4>WhatsApp</h4>
+            <h5>+55 18 99656-3354</h5>
+            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
+          </article>
+
+          <article className="contact__option">
+            <BsWhatsapp className='contact__option-icon' />
+            <h4>WhatsApp</h4>
+            <h5>+55 18 99656-3354</h5>
+            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
+          </article>
+
+          <article className="contact__option">
+            <BsWhatsapp className='contact__option-icon' />
+            <h4>WhatsApp</h4>
+            <h5>+55 18 99656-3354</h5>
+            <a href="https://wa.me/5518996563354" target='_blank'>Envie uma mensagem</a>
+          </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
-        <form ref={form} onSubmit={sendEmail}>
+
+
+        {/* <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Nome completo' required />
           <input type="email" name="email" placeholder='Email' required />
           <textarea name="message" rows={7} placeholder='Mensagem' required></textarea>
           <button type='submit' onClick={onSubmitContact} className='btn btn-primary'>Enviar</button>
-        </form>
+        </form> */}
       </div>
     </section>
   )

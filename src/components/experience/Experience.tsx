@@ -51,22 +51,6 @@ const Experience = () => {
             </article>
           </div>
         </div>
-                
-                {/* END OF FRONTEND */}
-
-        {/* <div className="experience__backend">
-        <h3>Desenvolvimento Back-end</h3>
-          <div className="experience__content">
-            <article className='experience__details'>
-              <IoLogoNodejs className='experience__details-icon' />
-              <div>
-                <h4>Node JS</h4>
-                <small className='text-light'>Básico</small>
-              </div>
-            </article>
-
-          </div>
-        </div> */}
       </div>
     </section>
   )

@@ -33,11 +33,11 @@ function Portifolio() {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>Portifólio | Reactfolio</h3>
+          <h3>Site | Casa Lar</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/lmbbetetto/react-portifolio-website-1.git" className='btn btn-primary' target='_blank'>Github</a>
+            <a href="https://github.com/lmbbetetto/CASALAR.git" className='btn btn-primary' target='_blank'>Github</a>
           </div>
         </article>
       </div>

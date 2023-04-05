@@ -1,17 +1,22 @@
 .container.contact__container {
     width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 12%;
 }
 
 .contact__options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    /* display: flex;
+    flex-direction: row;
+    gap: 1.2rem; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
 .contact__option {
+    width: 20rem;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
