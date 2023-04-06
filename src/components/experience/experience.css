@@ -1,8 +1,5 @@
 .experience__container {
-    max-width: 48%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    width: 48%;
 }
 
 .experience__container > div {
@@ -69,6 +66,5 @@
 
     .experience__container > div {
         width: 100%;
-        padding: 2rem 1rem;
     }
 }
