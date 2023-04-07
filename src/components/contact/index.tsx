@@ -29,6 +29,7 @@ function Contact({ onSubmitContact }: ContactType) {
 
       <div className="container contact__container">
         <div className="contact__options">
+          
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
