@@ -15,22 +15,22 @@ export function Contact() {
 
           <Card
             link='mailto:lmbbetetto@gmail.com'
-            tipo='Email'
-            conteudo="lmbbetetto@gmail.com"
+            type='Email'
+            content="lmbbetetto@gmail.com"
             icone={MdOutlineEmail}
           />
 
           <Card
             link='https://www.instagram.com/leobetetto/'
-            tipo='Instagram'
-            conteudo="leobetetto"
+            type='Instagram'
+            content="leobetetto"
             icone={FiInstagram}
           />
 
           <Card
             link='https://wa.me/5518996563354'
-            tipo='WhatsApp'
-            conteudo="+55 18 99656-3354"
+            type='WhatsApp'
+            content="+55 18 99656-3354"
             icone={BsWhatsapp}
           />
         </div>
