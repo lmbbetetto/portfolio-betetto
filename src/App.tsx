@@ -6,9 +6,6 @@ import Experience from './components/experience/Experience'
 import Portifolio from './components/portfolio/Portifolio'
 import {Contact} from './components/contact/index'
 import Footer from './components/footer/Footer'
-import Modal from 'react-modal'
-
-Modal.setAppElement('#root')
 
 export function App() {
   return (
