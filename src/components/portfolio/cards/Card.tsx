@@ -5,6 +5,7 @@ interface CardProps {
     alt: string;
     desc: string;
     link: string;
+    site: string;
 }
 
 export const CardPortfolio: React.FC<CardProps> = (props) => {
@@ -17,6 +18,7 @@ export const CardPortfolio: React.FC<CardProps> = (props) => {
                 <h3>{props.desc}</h3>
                 <div className="portfolio__item-cta">
                     <a href={props.link} className='btn btn-primary' target='_blank'>Github</a>
+                    <a href={props.site} className='btn btn-primary' target='_blank'>Acessar</a>
                 </div>
             </article>
         </>
