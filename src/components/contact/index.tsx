@@ -3,6 +3,7 @@ import { MdOutlineEmail } from 'react-icons/md'
 import { BsWhatsapp } from 'react-icons/bs'
 import { FiInstagram } from 'react-icons/fi'
 import { Card } from './cards/Card';
+import { useEffect } from 'react';
 
 export function Contact() {
   return (
