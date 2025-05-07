@@ -2,12 +2,13 @@ import "./about.css";
 import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import CV from "../../assets/curriculo.pdf";
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Venha me conhecer</h5>
-      <h2>Sobre mim</h2>
+      {/* <h5>Venha me conhecer</h5> */}
+      {/* <h2>Sobre mim</h2> */}
 
       <div className="container about__container">
         <div className="about__me">
@@ -52,6 +53,9 @@ const About = () => {
           </p>
 
           <div className="container_btn">
+            <a href={CV} className="btn" target="_blank">
+              Download CV
+            </a>
             <a href="#contact" className="btn btn-primary">
               Entre em contato
             </a>

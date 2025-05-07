@@ -82,4 +82,10 @@ header {
     .scroll__down {
         display: none;
     }
+
+    .cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
