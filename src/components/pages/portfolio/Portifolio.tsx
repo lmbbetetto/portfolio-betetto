@@ -1,9 +1,9 @@
 import "./portfolio.css";
-import IMG1 from "../../assets/projeto_portifolio.png";
-import IMG2 from "../../assets/projeto_casalar.png";
-import IMG3 from "../../assets/projeto_acipp.png";
-import IMG4 from "../../assets/projeto_lardosidosos.png";
-import IMG5 from "../../assets/projeto_tcc.png";
+import IMG1 from "../../../assets/projeto_portifolio.png";
+import IMG2 from "../../../assets/projeto_casalar.png";
+import IMG3 from "../../../assets/projeto_acipp.png";
+import IMG4 from "../../../assets/projeto_lardosidosos.png";
+import IMG5 from "../../../assets/projeto_tcc.png";
 
 import { CardPortfolio } from "./components/card/Card";
 

@@ -1,7 +1,4 @@
-import "./experience.css";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io";
+import "./skils.css";
 import { SiReact } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
@@ -9,13 +6,13 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 
-const Experience = () => {
+export function Skils() {
   return (
     <section id="experience">
       <h5>Quais habilidades eu tenho?</h5>
-      <h2>Experiências</h2>
+      <h2>Habilidades</h2>
 
-      <div className="container_experience">
+      <div className="container container_experience">
         <div className="container experience__container">
           <div className="experience__frontend">
             <h3>Desenvolvimento Front-end</h3>
@@ -88,6 +85,4 @@ const Experience = () => {
       </div>
     </section>
   );
-};
-
-export default Experience;
+}

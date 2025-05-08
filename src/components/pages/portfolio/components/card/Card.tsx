@@ -1,10 +1,10 @@
 import "./card.css";
 
-import REACT from "../../../../assets/icons/file_type_reactjs_icon_130205.svg";
-import NEXT from "../../../../assets/icons/nextjs_icon_132160.svg";
-import NODE from "../../../../assets/icons/nodejs_plain_logo_icon_146409.svg";
-import TYPE from "../../../../assets/icons/typescript_original_logo_icon_146317.svg";
-import TAILWIND from "../../../../assets/icons/css_tailwind_logo_icon_214735.svg";
+import REACT from "../../../../../assets/icons/file_type_reactjs_icon_130205.svg";
+import NEXT from "../../../../../assets/icons/nextjs_icon_132160.svg";
+import NODE from "../../../../../assets/icons/nodejs_plain_logo_icon_146409.svg";
+import TYPE from "../../../../../assets/icons/typescript_original_logo_icon_146317.svg";
+import TAILWIND from "../../../../../assets/icons/css_tailwind_logo_icon_214735.svg";
 
 interface CardProps {
   photo: string;

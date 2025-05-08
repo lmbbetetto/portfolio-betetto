@@ -1,8 +1,8 @@
 import "./about.css";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import CV from "../../assets/CV-Leonardo-Betetto.pdf";
+import CV from "../../../assets/CV-Leonardo-Betetto.pdf";
 
 const About = () => {
   return (

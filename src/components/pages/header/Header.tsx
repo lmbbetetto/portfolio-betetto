@@ -1,6 +1,6 @@
 import "./header.css";
 import CTA from "./CTA";
-import { i18n } from "../../translate/i18n";
+import { i18n } from "../../../translate/i18n";
 
 function Header() {
   return (
