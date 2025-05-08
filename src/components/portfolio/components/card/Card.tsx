@@ -42,31 +42,31 @@ export const CardPortfolio: React.FC<CardProps> = ({
         <h3>{desc}</h3>
         <div className="card_stacks">
           {showReact && (
-            <div className="stack btn">
+            <div className="stack">
               <img src={REACT} alt="React logo" />
               <p>ReactJS</p>
             </div>
           )}
           {showNext && (
-            <div className="stack btn">
+            <div className="stack">
               <img src={NEXT} alt="React logo" />
               <p>NextJS</p>
             </div>
           )}
           {showNode && (
-            <div className="stack btn">
+            <div className="stack">
               <img src={NODE} alt="React logo" />
               <p>NodeJS</p>
             </div>
           )}
           {showTailwind && (
-            <div className="stack btn">
+            <div className="stack">
               <img src={TAILWIND} alt="React logo" />
               <p>Tailwind CSS</p>
             </div>
           )}
           {showType && (
-            <div className="stack btn">
+            <div className="stack">
               <img src={TYPE} alt="React logo" />
               <p>Typescript</p>
             </div>
