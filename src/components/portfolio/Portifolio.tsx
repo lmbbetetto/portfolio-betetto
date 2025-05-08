@@ -61,7 +61,7 @@ function Portifolio() {
   return (
     <section id="portfolio">
       <h5>Meus trabalhos</h5>
-      <h2>Portfólio</h2>
+      <h2>Projetos</h2>
 
       <div className="container portfolio__container">
         {Cards.map((component, index) => (
