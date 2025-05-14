@@ -2,7 +2,7 @@ import "./header.css";
 import CTA from "./CTA";
 import { i18n } from "../../../translate/i18n";
 
-function Header() {
+export function Header() {
   return (
     <header>
       <div className="container header__container">
@@ -14,5 +14,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

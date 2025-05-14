@@ -3,13 +3,11 @@ import ME from "../../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import CV from "../../../assets/CV-Leonardo-Betetto.pdf";
+import { CardsPortifolio } from "../portfolio/cards";
 
-const About = () => {
+export function About() {
   return (
     <section id="about">
-      {/* <h5>Venha me conhecer</h5> */}
-      {/* <h2>Sobre mim</h2> */}
-
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -28,7 +26,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projetos</h5>
-              <small>5 Completos</small>
+              <small>{CardsPortifolio.length}</small>
             </article>
           </div>
 
@@ -73,6 +71,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}
