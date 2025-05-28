@@ -1,5 +1,15 @@
 {
   "pt": "Portuguese",
   "en": "English",
-  "es": "Spanish"
+  "es": "Spanish",
+
+  "ola": "Hello, I am",
+  "dev": "Front-end developer",
+  
+  "experience": "Experience",
+  "junior": "Junior",
+  "project": "Projects",
+  "aboutText": "Welcome to my personal portfolio! I am a front-end developer passionate about HTML, CSS, JavaScript, and React, with 2 years of professional experience working as a Front-end Developer. In my portfolio, you will find some of the most interesting projects I've worked on, including websites, web applications, and interactive experiences. I work with HTML and CSS to create elegant and accessible layouts and use JavaScript to bring my web pages to life with dynamic interactions and advanced functionalities. One of my strengths is my skill in React. I have experience in creating reusable components, using popular libraries like Redux and Material UI, and building complex single-page applications. In short, my personal portfolio showcases my ability to develop modern and functional websites using the latest technologies. If you're looking for a front-end developer who can deliver exceptional results, I'm here to help. Thanks for visiting!",
+  "cv": "Resume",
+  "contact": "Contact me"
 }
