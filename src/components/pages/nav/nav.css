@@ -31,3 +31,43 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/* dropdown */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  border-radius: 0.9rem;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-color: var(--color-nav);
+  backdrop-filter: blur(15px);
+  list-style: none;
+  padding: 0.5rem 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  color: var(--color-light);
+}
+
+.dropdown-menu li:hover {
+  color: var(--color-white);
+}
+
+.flag-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

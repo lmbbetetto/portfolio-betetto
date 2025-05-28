@@ -15,7 +15,9 @@
     --color-primary: #A7C4BC;
     --color-primary-variant: rgba(223, 238, 234, 0.4);
     --color-white: #fff;
+    --color-black: black;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-nav: rgba(0, 0, 0, 0.3);
 
     --transition: all 400ms ease;
 

@@ -6,6 +6,7 @@ import { Experience } from "./components/pages/experience/Experience";
 import { Portifolio } from "./components/pages/portfolio/Portifolio";
 import { Contact } from "./components/pages/contact/index";
 import { Footer } from "./components/pages/footer/Footer";
+import "./i18nify";
 
 export function App() {
   return (
