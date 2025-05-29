@@ -71,3 +71,16 @@ nav a.active {
     align-items: center;
     gap: 0.5rem;
 }
+
+@MEDIA screen and (max-width: 600px) {
+  nav {
+    width: 95%;
+    gap: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dropdown-menu {
+    left: -200%;
+  }
+}
